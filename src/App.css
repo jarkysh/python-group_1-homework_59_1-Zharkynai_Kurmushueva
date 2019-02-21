@@ -1,4 +1,5 @@
 .App {
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -31,3 +32,43 @@
     transform: rotate(360deg);
   }
 }
+
+ div.film {
+  margin-top:1%;
+  position: relative;
+  border-width: 3px;
+  border-style: solid;
+  margin-left: 10%;
+  }
+p.film {
+  float: left;
+  padding: 5px;
+}
+img.del {
+  float: bottom;
+  height: 40px;
+  top: 10%;
+}
+button.add {
+  position: absolute;
+  margin-top: 4%;
+  height: 5%;
+  background-color: white;
+  border-color: black;
+  left: 65%;
+  width: 15%;
+  display: inline;
+  margin-bottom: 2%;
+}
+input.film{
+  font-size: 20px;
+  position: relative;
+  top: 2%;
+  margin-top: 4%;
+  left: 10%;
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+
